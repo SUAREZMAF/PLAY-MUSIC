@@ -13,7 +13,7 @@ const { songs } = await api.json();
 	<div class="lista">
 		{
 			songs.map((song) => (
-				<Repetircodigo artista={song.author} titulo={song.title} />
+				<Repetircodigo client:visible artista={song.author} titulo={song.title} sonido={song.audio.url} />
 			))
 		}
 	</div>

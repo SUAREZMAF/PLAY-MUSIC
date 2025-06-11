@@ -1,4 +1,4 @@
-import { atom } from "nanostore"
+import { atom } from "nanostores"
 
 export const $cancionactual = atom(null)
 
